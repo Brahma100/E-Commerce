@@ -1,0 +1,2619 @@
+{
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/server.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./app",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "app"
+              }
+            ]
+          },
+          {
+            "source": "./config",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/server.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _app = require('./app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nvar _config = require('./config');\n\nvar _config2 = _interopRequireDefault(_config);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PORT = _config2.default.PORT;\n\n\n_app2.default.listen(PORT, function () {\n  return console.log('Server started on PORT ' + PORT);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJQT1JUIiwiY29uZmlnIiwiYXBwIiwibGlzdGVuIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7Ozs7SUFFUUEsSSxHQUFTQyxnQixDQUFURCxJOzs7QUFFUkUsY0FBSUMsTUFBSixDQUFXSCxJQUFYLEVBQWlCO0FBQUEsU0FBTUksUUFBUUMsR0FBUiw2QkFBc0NMLElBQXRDLENBQU47QUFBQSxDQUFqQiIsImZpbGUiOiJzZXJ2ZXIuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvc3BpY3kvRGVza3RvcC9tZXJuX3Nob3BwaW5nX2xpc3QtbWFzdGVyIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGFwcCBmcm9tICcuL2FwcCc7XG5pbXBvcnQgY29uZmlnIGZyb20gJy4vY29uZmlnJztcblxuY29uc3QgeyBQT1JUIH0gPSBjb25maWc7XG5cbmFwcC5saXN0ZW4oUE9SVCwgKCkgPT4gY29uc29sZS5sb2coYFNlcnZlciBzdGFydGVkIG9uIFBPUlQgJHtQT1JUfWApKTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "PORT",
+        "config",
+        "app",
+        "listen",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;IAEQA,I,GAASC,gB,CAATD,I;;;AAERE,cAAIC,MAAJ,CAAWH,IAAX,EAAiB;AAAA,SAAMI,QAAQC,GAAR,6BAAsCL,IAAtC,CAAN;AAAA,CAAjB",
+      "file": "server.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master",
+      "sourcesContent": [
+        "import app from './app';\nimport config from './config';\n\nconst { PORT } = config;\n\napp.listen(PORT, () => console.log(`Server started on PORT ${PORT}`));\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/app.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "mongoose",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "mongoose"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "cors",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "cors"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "morgan",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "morgan"
+              }
+            ]
+          },
+          {
+            "source": "./config",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          },
+          {
+            "source": "./routes/api/auth",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "authRoutes"
+              }
+            ]
+          },
+          {
+            "source": "./routes/api/items",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "itemRoutes"
+              }
+            ]
+          },
+          {
+            "source": "./routes/api/users",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "userRoutes"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/app.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _mongoose = require('mongoose');\n\nvar _mongoose2 = _interopRequireDefault(_mongoose);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _cors = require('cors');\n\nvar _cors2 = _interopRequireDefault(_cors);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _morgan = require('morgan');\n\nvar _morgan2 = _interopRequireDefault(_morgan);\n\nvar _config = require('./config');\n\nvar _config2 = _interopRequireDefault(_config);\n\nvar _auth = require('./routes/api/auth');\n\nvar _auth2 = _interopRequireDefault(_auth);\n\nvar _items = require('./routes/api/items');\n\nvar _items2 = _interopRequireDefault(_items);\n\nvar _users = require('./routes/api/users');\n\nvar _users2 = _interopRequireDefault(_users);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar MONGO_URI = _config2.default.MONGO_URI,\n    MONGO_DB_NAME = _config2.default.MONGO_DB_NAME;\n\n// routes\n\nvar app = (0, _express2.default)();\n\n// CORS Middleware\napp.use((0, _cors2.default)());\n// Logger Middleware\napp.use((0, _morgan2.default)('dev'));\n// Bodyparser Middleware\napp.use(_bodyParser2.default.json());\n\n// DB Config\nvar db = MONGO_URI + '/' + MONGO_DB_NAME;\n\n// Connect to Mongo\n_mongoose2.default.connect(db, {\n  useNewUrlParser: true,\n  useCreateIndex: true,\n  useUnifiedTopology: true\n}) // Adding new mongo url parser\n.then(function () {\n  return console.log('MongoDB Connected...');\n}).catch(function (err) {\n  return console.log(err);\n});\n\n// Use Routes\napp.use('/api/items', _items2.default);\napp.use('/api/users', _users2.default);\napp.use('/api/auth', _auth2.default);\n\n// Serve static assets if in production\nif (process.env.NODE_ENV === 'production') {\n  // Set static folder\n  app.use(_express2.default.static('client/build'));\n\n  app.get('*', function (req, res) {\n    res.sendFile(_path2.default.resolve(__dirname, 'client', 'build', 'index.html'));\n  });\n}\n\nexports.default = app;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6WyJNT05HT19VUkkiLCJjb25maWciLCJNT05HT19EQl9OQU1FIiwiYXBwIiwidXNlIiwiYm9keVBhcnNlciIsImpzb24iLCJkYiIsIm1vbmdvb3NlIiwiY29ubmVjdCIsInVzZU5ld1VybFBhcnNlciIsInVzZUNyZWF0ZUluZGV4IiwidXNlVW5pZmllZFRvcG9sb2d5IiwidGhlbiIsImNvbnNvbGUiLCJsb2ciLCJjYXRjaCIsImVyciIsIml0ZW1Sb3V0ZXMiLCJ1c2VyUm91dGVzIiwiYXV0aFJvdXRlcyIsInByb2Nlc3MiLCJlbnYiLCJOT0RFX0VOViIsImV4cHJlc3MiLCJzdGF0aWMiLCJnZXQiLCJyZXEiLCJyZXMiLCJzZW5kRmlsZSIsInBhdGgiLCJyZXNvbHZlIiwiX19kaXJuYW1lIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUdBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0lBRVFBLFMsR0FBNkJDLGdCLENBQTdCRCxTO0lBQVdFLGEsR0FBa0JELGdCLENBQWxCQyxhOztBQUxuQjs7QUFPQSxJQUFNQyxNQUFNLHdCQUFaOztBQUVBO0FBQ0FBLElBQUlDLEdBQUosQ0FBUSxxQkFBUjtBQUNBO0FBQ0FELElBQUlDLEdBQUosQ0FBUSxzQkFBTyxLQUFQLENBQVI7QUFDQTtBQUNBRCxJQUFJQyxHQUFKLENBQVFDLHFCQUFXQyxJQUFYLEVBQVI7O0FBRUE7QUFDQSxJQUFNQyxLQUFRUCxTQUFSLFNBQXFCRSxhQUEzQjs7QUFFQTtBQUNBTSxtQkFDR0MsT0FESCxDQUNXRixFQURYLEVBQ2U7QUFDWEcsbUJBQWlCLElBRE47QUFFWEMsa0JBQWdCLElBRkw7QUFHWEMsc0JBQW9CO0FBSFQsQ0FEZixFQUtLO0FBTEwsQ0FNR0MsSUFOSCxDQU1RO0FBQUEsU0FBTUMsUUFBUUMsR0FBUixDQUFZLHNCQUFaLENBQU47QUFBQSxDQU5SLEVBT0dDLEtBUEgsQ0FPUztBQUFBLFNBQU9GLFFBQVFDLEdBQVIsQ0FBWUUsR0FBWixDQUFQO0FBQUEsQ0FQVDs7QUFTQTtBQUNBZCxJQUFJQyxHQUFKLENBQVEsWUFBUixFQUFzQmMsZUFBdEI7QUFDQWYsSUFBSUMsR0FBSixDQUFRLFlBQVIsRUFBc0JlLGVBQXRCO0FBQ0FoQixJQUFJQyxHQUFKLENBQVEsV0FBUixFQUFxQmdCLGNBQXJCOztBQUVBO0FBQ0EsSUFBSUMsUUFBUUMsR0FBUixDQUFZQyxRQUFaLEtBQXlCLFlBQTdCLEVBQTJDO0FBQ3pDO0FBQ0FwQixNQUFJQyxHQUFKLENBQVFvQixrQkFBUUMsTUFBUixDQUFlLGNBQWYsQ0FBUjs7QUFFQXRCLE1BQUl1QixHQUFKLENBQVEsR0FBUixFQUFhLFVBQUNDLEdBQUQsRUFBTUMsR0FBTixFQUFjO0FBQ3pCQSxRQUFJQyxRQUFKLENBQWFDLGVBQUtDLE9BQUwsQ0FBYUMsU0FBYixFQUF3QixRQUF4QixFQUFrQyxPQUFsQyxFQUEyQyxZQUEzQyxDQUFiO0FBQ0QsR0FGRDtBQUdEOztrQkFFYzdCLEciLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL3NwaWN5L0Rlc2t0b3AvbWVybl9zaG9wcGluZ19saXN0LW1hc3RlciIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IG1vbmdvb3NlIGZyb20gJ21vbmdvb3NlJztcbmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnO1xuaW1wb3J0IGNvcnMgZnJvbSAnY29ycyc7XG5pbXBvcnQgYm9keVBhcnNlciBmcm9tICdib2R5LXBhcnNlcic7XG5pbXBvcnQgbW9yZ2FuIGZyb20gJ21vcmdhbic7XG5pbXBvcnQgY29uZmlnIGZyb20gJy4vY29uZmlnJztcblxuLy8gcm91dGVzXG5pbXBvcnQgYXV0aFJvdXRlcyBmcm9tICcuL3JvdXRlcy9hcGkvYXV0aCc7XG5pbXBvcnQgaXRlbVJvdXRlcyBmcm9tICcuL3JvdXRlcy9hcGkvaXRlbXMnO1xuaW1wb3J0IHVzZXJSb3V0ZXMgZnJvbSAnLi9yb3V0ZXMvYXBpL3VzZXJzJztcblxuY29uc3QgeyBNT05HT19VUkksIE1PTkdPX0RCX05BTUUgfSA9IGNvbmZpZztcblxuY29uc3QgYXBwID0gZXhwcmVzcygpO1xuXG4vLyBDT1JTIE1pZGRsZXdhcmVcbmFwcC51c2UoY29ycygpKTtcbi8vIExvZ2dlciBNaWRkbGV3YXJlXG5hcHAudXNlKG1vcmdhbignZGV2JykpO1xuLy8gQm9keXBhcnNlciBNaWRkbGV3YXJlXG5hcHAudXNlKGJvZHlQYXJzZXIuanNvbigpKTtcblxuLy8gREIgQ29uZmlnXG5jb25zdCBkYiA9IGAke01PTkdPX1VSSX0vJHtNT05HT19EQl9OQU1FfWA7XG5cbi8vIENvbm5lY3QgdG8gTW9uZ29cbm1vbmdvb3NlXG4gIC5jb25uZWN0KGRiLCB7XG4gICAgdXNlTmV3VXJsUGFyc2VyOiB0cnVlLFxuICAgIHVzZUNyZWF0ZUluZGV4OiB0cnVlLFxuICAgIHVzZVVuaWZpZWRUb3BvbG9neTogdHJ1ZVxuICB9KSAvLyBBZGRpbmcgbmV3IG1vbmdvIHVybCBwYXJzZXJcbiAgLnRoZW4oKCkgPT4gY29uc29sZS5sb2coJ01vbmdvREIgQ29ubmVjdGVkLi4uJykpXG4gIC5jYXRjaChlcnIgPT4gY29uc29sZS5sb2coZXJyKSk7XG5cbi8vIFVzZSBSb3V0ZXNcbmFwcC51c2UoJy9hcGkvaXRlbXMnLCBpdGVtUm91dGVzKTtcbmFwcC51c2UoJy9hcGkvdXNlcnMnLCB1c2VyUm91dGVzKTtcbmFwcC51c2UoJy9hcGkvYXV0aCcsIGF1dGhSb3V0ZXMpO1xuXG4vLyBTZXJ2ZSBzdGF0aWMgYXNzZXRzIGlmIGluIHByb2R1Y3Rpb25cbmlmIChwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ3Byb2R1Y3Rpb24nKSB7XG4gIC8vIFNldCBzdGF0aWMgZm9sZGVyXG4gIGFwcC51c2UoZXhwcmVzcy5zdGF0aWMoJ2NsaWVudC9idWlsZCcpKTtcblxuICBhcHAuZ2V0KCcqJywgKHJlcSwgcmVzKSA9PiB7XG4gICAgcmVzLnNlbmRGaWxlKHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICdjbGllbnQnLCAnYnVpbGQnLCAnaW5kZXguaHRtbCcpKTtcbiAgfSk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IGFwcDtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.js"
+      ],
+      "names": [
+        "MONGO_URI",
+        "config",
+        "MONGO_DB_NAME",
+        "app",
+        "use",
+        "bodyParser",
+        "json",
+        "db",
+        "mongoose",
+        "connect",
+        "useNewUrlParser",
+        "useCreateIndex",
+        "useUnifiedTopology",
+        "then",
+        "console",
+        "log",
+        "catch",
+        "err",
+        "itemRoutes",
+        "userRoutes",
+        "authRoutes",
+        "process",
+        "env",
+        "NODE_ENV",
+        "express",
+        "static",
+        "get",
+        "req",
+        "res",
+        "sendFile",
+        "path",
+        "resolve",
+        "__dirname"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAGA;;;;AACA;;;;AACA;;;;;;IAEQA,S,GAA6BC,gB,CAA7BD,S;IAAWE,a,GAAkBD,gB,CAAlBC,a;;AALnB;;AAOA,IAAMC,MAAM,wBAAZ;;AAEA;AACAA,IAAIC,GAAJ,CAAQ,qBAAR;AACA;AACAD,IAAIC,GAAJ,CAAQ,sBAAO,KAAP,CAAR;AACA;AACAD,IAAIC,GAAJ,CAAQC,qBAAWC,IAAX,EAAR;;AAEA;AACA,IAAMC,KAAQP,SAAR,SAAqBE,aAA3B;;AAEA;AACAM,mBACGC,OADH,CACWF,EADX,EACe;AACXG,mBAAiB,IADN;AAEXC,kBAAgB,IAFL;AAGXC,sBAAoB;AAHT,CADf,EAKK;AALL,CAMGC,IANH,CAMQ;AAAA,SAAMC,QAAQC,GAAR,CAAY,sBAAZ,CAAN;AAAA,CANR,EAOGC,KAPH,CAOS;AAAA,SAAOF,QAAQC,GAAR,CAAYE,GAAZ,CAAP;AAAA,CAPT;;AASA;AACAd,IAAIC,GAAJ,CAAQ,YAAR,EAAsBc,eAAtB;AACAf,IAAIC,GAAJ,CAAQ,YAAR,EAAsBe,eAAtB;AACAhB,IAAIC,GAAJ,CAAQ,WAAR,EAAqBgB,cAArB;;AAEA;AACA,IAAIC,QAAQC,GAAR,CAAYC,QAAZ,KAAyB,YAA7B,EAA2C;AACzC;AACApB,MAAIC,GAAJ,CAAQoB,kBAAQC,MAAR,CAAe,cAAf,CAAR;;AAEAtB,MAAIuB,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzBA,QAAIC,QAAJ,CAAaC,eAAKC,OAAL,CAAaC,SAAb,EAAwB,QAAxB,EAAkC,OAAlC,EAA2C,YAA3C,CAAb;AACD,GAFD;AAGD;;kBAEc7B,G",
+      "file": "app.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master",
+      "sourcesContent": [
+        "import express from 'express';\nimport mongoose from 'mongoose';\nimport path from 'path';\nimport cors from 'cors';\nimport bodyParser from 'body-parser';\nimport morgan from 'morgan';\nimport config from './config';\n\n// routes\nimport authRoutes from './routes/api/auth';\nimport itemRoutes from './routes/api/items';\nimport userRoutes from './routes/api/users';\n\nconst { MONGO_URI, MONGO_DB_NAME } = config;\n\nconst app = express();\n\n// CORS Middleware\napp.use(cors());\n// Logger Middleware\napp.use(morgan('dev'));\n// Bodyparser Middleware\napp.use(bodyParser.json());\n\n// DB Config\nconst db = `${MONGO_URI}/${MONGO_DB_NAME}`;\n\n// Connect to Mongo\nmongoose\n  .connect(db, {\n    useNewUrlParser: true,\n    useCreateIndex: true,\n    useUnifiedTopology: true\n  }) // Adding new mongo url parser\n  .then(() => console.log('MongoDB Connected...'))\n  .catch(err => console.log(err));\n\n// Use Routes\napp.use('/api/items', itemRoutes);\napp.use('/api/users', userRoutes);\napp.use('/api/auth', authRoutes);\n\n// Serve static assets if in production\nif (process.env.NODE_ENV === 'production') {\n  // Set static folder\n  app.use(express.static('client/build'));\n\n  app.get('*', (req, res) => {\n    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));\n  });\n}\n\nexport default app;\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/config/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/config\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "dotenv",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "dotenv"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/config/index.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/config/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/config",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/config",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _dotenv = require('dotenv');\n\nvar _dotenv2 = _interopRequireDefault(_dotenv);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_dotenv2.default.config();\n\nexports.default = {\n  PORT: process.env.PORT,\n  MONGO_URI: process.env.MONGO_URI,\n  MONGO_DB_NAME: process.env.MONGO_DB_NAME,\n  JWT_SECRET: process.env.JWT_SECRET\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImRvdGVudiIsImNvbmZpZyIsIlBPUlQiLCJwcm9jZXNzIiwiZW52IiwiTU9OR09fVVJJIiwiTU9OR09fREJfTkFNRSIsIkpXVF9TRUNSRVQiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7Ozs7QUFFQUEsaUJBQU9DLE1BQVA7O2tCQUVlO0FBQ2JDLFFBQU1DLFFBQVFDLEdBQVIsQ0FBWUYsSUFETDtBQUViRyxhQUFXRixRQUFRQyxHQUFSLENBQVlDLFNBRlY7QUFHYkMsaUJBQWVILFFBQVFDLEdBQVIsQ0FBWUUsYUFIZDtBQUliQyxjQUFZSixRQUFRQyxHQUFSLENBQVlHO0FBSlgsQyIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9zcGljeS9EZXNrdG9wL21lcm5fc2hvcHBpbmdfbGlzdC1tYXN0ZXIvY29uZmlnIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGRvdGVudiBmcm9tICdkb3RlbnYnO1xuXG5kb3RlbnYuY29uZmlnKCk7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgUE9SVDogcHJvY2Vzcy5lbnYuUE9SVCxcbiAgTU9OR09fVVJJOiBwcm9jZXNzLmVudi5NT05HT19VUkksXG4gIE1PTkdPX0RCX05BTUU6IHByb2Nlc3MuZW52Lk1PTkdPX0RCX05BTUUsXG4gIEpXVF9TRUNSRVQ6IHByb2Nlc3MuZW52LkpXVF9TRUNSRVRcbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "dotenv",
+        "config",
+        "PORT",
+        "process",
+        "env",
+        "MONGO_URI",
+        "MONGO_DB_NAME",
+        "JWT_SECRET"
+      ],
+      "mappings": ";;;;;;AAAA;;;;;;AAEAA,iBAAOC,MAAP;;kBAEe;AACbC,QAAMC,QAAQC,GAAR,CAAYF,IADL;AAEbG,aAAWF,QAAQC,GAAR,CAAYC,SAFV;AAGbC,iBAAeH,QAAQC,GAAR,CAAYE,aAHd;AAIbC,cAAYJ,QAAQC,GAAR,CAAYG;AAJX,C",
+      "file": "index.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/config",
+      "sourcesContent": [
+        "import dotenv from 'dotenv';\n\ndotenv.config();\n\nexport default {\n  PORT: process.env.PORT,\n  MONGO_URI: process.env.MONGO_URI,\n  MONGO_DB_NAME: process.env.MONGO_DB_NAME,\n  JWT_SECRET: process.env.JWT_SECRET\n};\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/auth.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "Router"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Router",
+                "local": "Router"
+              }
+            ]
+          },
+          {
+            "source": "bcryptjs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bcrypt"
+              }
+            ]
+          },
+          {
+            "source": "../../config",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          },
+          {
+            "source": "jsonwebtoken",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "jwt"
+              }
+            ]
+          },
+          {
+            "source": "../../middleware/auth",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "auth"
+              }
+            ]
+          },
+          {
+            "source": "../../models/User",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "User"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/auth.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/auth.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "auth.js",
+      "sourceFileName": "auth.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "auth"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _express = require('express');\n\nvar _bcryptjs = require('bcryptjs');\n\nvar _bcryptjs2 = _interopRequireDefault(_bcryptjs);\n\nvar _config = require('../../config');\n\nvar _config2 = _interopRequireDefault(_config);\n\nvar _jsonwebtoken = require('jsonwebtoken');\n\nvar _jsonwebtoken2 = _interopRequireDefault(_jsonwebtoken);\n\nvar _auth = require('../../middleware/auth');\n\nvar _auth2 = _interopRequireDefault(_auth);\n\nvar _User = require('../../models/User');\n\nvar _User2 = _interopRequireDefault(_User);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n// User Model\n\n\nvar JWT_SECRET = _config2.default.JWT_SECRET;\n\nvar router = (0, _express.Router)();\n\n/**\n * @route   POST api/auth/login\n * @desc    Login user\n * @access  Public\n */\n\nrouter.post('/login', function () {\n  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(req, res) {\n    var _req$body, email, password, user, isMatch, token;\n\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _req$body = req.body, email = _req$body.email, password = _req$body.password;\n\n            // Simple validation\n\n            if (!(!email || !password)) {\n              _context.next = 3;\n              break;\n            }\n\n            return _context.abrupt('return', res.status(400).json({ msg: 'Please enter all fields' }));\n\n          case 3:\n            _context.prev = 3;\n            _context.next = 6;\n            return _User2.default.findOne({ email: email });\n\n          case 6:\n            user = _context.sent;\n\n            if (user) {\n              _context.next = 9;\n              break;\n            }\n\n            throw Error('User Does not exist');\n\n          case 9:\n            _context.next = 11;\n            return _bcryptjs2.default.compare(password, user.password);\n\n          case 11:\n            isMatch = _context.sent;\n\n            if (isMatch) {\n              _context.next = 14;\n              break;\n            }\n\n            throw Error('Invalid credentials');\n\n          case 14:\n            token = _jsonwebtoken2.default.sign({ id: user._id }, JWT_SECRET, { expiresIn: 3600 });\n\n            if (token) {\n              _context.next = 17;\n              break;\n            }\n\n            throw Error('Couldnt sign the token');\n\n          case 17:\n\n            res.status(200).json({\n              token: token,\n              user: {\n                id: user._id,\n                name: user.name,\n                email: user.email\n              }\n            });\n            _context.next = 23;\n            break;\n\n          case 20:\n            _context.prev = 20;\n            _context.t0 = _context['catch'](3);\n\n            res.status(400).json({ msg: _context.t0.message });\n\n          case 23:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, undefined, [[3, 20]]);\n  }));\n\n  return function (_x, _x2) {\n    return _ref.apply(this, arguments);\n  };\n}());\n\n/**\n * @route   POST api/users\n * @desc    Register new user\n * @access  Public\n */\n\nrouter.post('/register', function () {\n  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(req, res) {\n    var _req$body2, name, email, password, user, salt, hash, newUser, savedUser, token;\n\n    return regeneratorRuntime.wrap(function _callee2$(_context2) {\n      while (1) {\n        switch (_context2.prev = _context2.next) {\n          case 0:\n            _req$body2 = req.body, name = _req$body2.name, email = _req$body2.email, password = _req$body2.password;\n\n            // Simple validation\n\n            if (!(!name || !email || !password)) {\n              _context2.next = 3;\n              break;\n            }\n\n            return _context2.abrupt('return', res.status(400).json({ msg: 'Please enter all fields' }));\n\n          case 3:\n            _context2.prev = 3;\n            _context2.next = 6;\n            return _User2.default.findOne({ email: email });\n\n          case 6:\n            user = _context2.sent;\n\n            if (!user) {\n              _context2.next = 9;\n              break;\n            }\n\n            throw Error('User already exists');\n\n          case 9:\n            _context2.next = 11;\n            return _bcryptjs2.default.genSalt(10);\n\n          case 11:\n            salt = _context2.sent;\n\n            if (salt) {\n              _context2.next = 14;\n              break;\n            }\n\n            throw Error('Something went wrong with bcrypt');\n\n          case 14:\n            _context2.next = 16;\n            return _bcryptjs2.default.hash(password, salt);\n\n          case 16:\n            hash = _context2.sent;\n\n            if (hash) {\n              _context2.next = 19;\n              break;\n            }\n\n            throw Error('Something went wrong hashing the password');\n\n          case 19:\n            newUser = new _User2.default({\n              name: name,\n              email: email,\n              password: hash\n            });\n            _context2.next = 22;\n            return newUser.save();\n\n          case 22:\n            savedUser = _context2.sent;\n\n            if (savedUser) {\n              _context2.next = 25;\n              break;\n            }\n\n            throw Error('Something went wrong saving the user');\n\n          case 25:\n            token = _jsonwebtoken2.default.sign({ id: savedUser._id }, JWT_SECRET, {\n              expiresIn: 3600\n            });\n\n\n            res.status(200).json({\n              token: token,\n              user: {\n                id: savedUser.id,\n                name: savedUser.name,\n                email: savedUser.email\n              }\n            });\n            _context2.next = 32;\n            break;\n\n          case 29:\n            _context2.prev = 29;\n            _context2.t0 = _context2['catch'](3);\n\n            res.status(400).json({ error: _context2.t0.message });\n\n          case 32:\n          case 'end':\n            return _context2.stop();\n        }\n      }\n    }, _callee2, undefined, [[3, 29]]);\n  }));\n\n  return function (_x3, _x4) {\n    return _ref2.apply(this, arguments);\n  };\n}());\n\n/**\n * @route   GET api/auth/user\n * @desc    Get user data\n * @access  Private\n */\n\nrouter.get('/user', _auth2.default, function () {\n  var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(req, res) {\n    var user;\n    return regeneratorRuntime.wrap(function _callee3$(_context3) {\n      while (1) {\n        switch (_context3.prev = _context3.next) {\n          case 0:\n            _context3.prev = 0;\n            _context3.next = 3;\n            return _User2.default.findById(req.user.id).select('-password');\n\n          case 3:\n            user = _context3.sent;\n\n            if (user) {\n              _context3.next = 6;\n              break;\n            }\n\n            throw Error('User Does not exist');\n\n          case 6:\n            res.json(user);\n            _context3.next = 12;\n            break;\n\n          case 9:\n            _context3.prev = 9;\n            _context3.t0 = _context3['catch'](0);\n\n            res.status(400).json({ msg: _context3.t0.message });\n\n          case 12:\n          case 'end':\n            return _context3.stop();\n        }\n      }\n    }, _callee3, undefined, [[0, 9]]);\n  }));\n\n  return function (_x5, _x6) {\n    return _ref3.apply(this, arguments);\n  };\n}());\n\nexports.default = router;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanMiXSwibmFtZXMiOlsiSldUX1NFQ1JFVCIsImNvbmZpZyIsInJvdXRlciIsInBvc3QiLCJyZXEiLCJyZXMiLCJib2R5IiwiZW1haWwiLCJwYXNzd29yZCIsInN0YXR1cyIsImpzb24iLCJtc2ciLCJVc2VyIiwiZmluZE9uZSIsInVzZXIiLCJFcnJvciIsImJjcnlwdCIsImNvbXBhcmUiLCJpc01hdGNoIiwidG9rZW4iLCJqd3QiLCJzaWduIiwiaWQiLCJfaWQiLCJleHBpcmVzSW4iLCJuYW1lIiwibWVzc2FnZSIsImdlblNhbHQiLCJzYWx0IiwiaGFzaCIsIm5ld1VzZXIiLCJzYXZlIiwic2F2ZWRVc2VyIiwiZXJyb3IiLCJnZXQiLCJhdXRoIiwiZmluZEJ5SWQiLCJzZWxlY3QiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBRUE7Ozs7Ozs7QUFEQTs7O0lBR1FBLFUsR0FBZUMsZ0IsQ0FBZkQsVTs7QUFDUixJQUFNRSxTQUFTLHNCQUFmOztBQUVBOzs7Ozs7QUFNQUEsT0FBT0MsSUFBUCxDQUFZLFFBQVo7QUFBQSxxRUFBc0IsaUJBQU9DLEdBQVAsRUFBWUMsR0FBWjtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsd0JBQ1FELElBQUlFLElBRFosRUFDWkMsS0FEWSxhQUNaQSxLQURZLEVBQ0xDLFFBREssYUFDTEEsUUFESzs7QUFHcEI7O0FBSG9CLGtCQUloQixDQUFDRCxLQUFELElBQVUsQ0FBQ0MsUUFKSztBQUFBO0FBQUE7QUFBQTs7QUFBQSw2Q0FLWEgsSUFBSUksTUFBSixDQUFXLEdBQVgsRUFBZ0JDLElBQWhCLENBQXFCLEVBQUVDLEtBQUsseUJBQVAsRUFBckIsQ0FMVzs7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFVQ0MsZUFBS0MsT0FBTCxDQUFhLEVBQUVOLFlBQUYsRUFBYixDQVZEOztBQUFBO0FBVVpPLGdCQVZZOztBQUFBLGdCQVdiQSxJQVhhO0FBQUE7QUFB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ZSI6ImF1dGguanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvc3BpY3kvRGVza3RvcC9tZXJuX3Nob3BwaW5nX2xpc3QtbWFzdGVyL3JvdXRlcy9hcGkiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBSb3V0ZXIgfSBmcm9tICdleHByZXNzJztcbmltcG9ydCBiY3J5cHQgZnJvbSAnYmNyeXB0anMnO1xuaW1wb3J0IGNvbmZpZyBmcm9tICcuLi8uLi9jb25maWcnO1xuaW1wb3J0IGp3dCBmcm9tICdqc29ud2VidG9rZW4nO1xuaW1wb3J0IGF1dGggZnJvbSAnLi4vLi4vbWlkZGxld2FyZS9hdXRoJztcbi8vIFVzZXIgTW9kZWxcbmltcG9ydCBVc2VyIGZyb20gJy4uLy4uL21vZGVscy9Vc2VyJztcblxuY29uc3QgeyBKV1RfU0VDUkVUIH0gPSBjb25maWc7XG5jb25zdCByb3V0ZXIgPSBSb3V0ZXIoKTtcblxuLyoqXG4gKiBAcm91dGUgICBQT1NUIGFwaS9hdXRoL2xvZ2luXG4gKiBAZGVzYyAgICBMb2dpbiB1c2VyXG4gKiBAYWNjZXNzICBQdWJsaWNcbiAqL1xuXG5yb3V0ZXIucG9zdCgnL2xvZ2luJywgYXN5bmMgKHJlcSwgcmVzKSA9PiB7XG4gIGNvbnN0IHsgZW1haWwsIHBhc3N3b3JkIH0gPSByZXEuYm9keTtcblxuICAvLyBTaW1wbGUgdmFsaWRhdGlvblxuICBpZiAoIWVtYWlsIHx8ICFwYXNzd29yZCkge1xuICAgIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1zZzogJ1BsZWFzZSBlbnRlciBhbGwgZmllbGRzJyB9KTtcbiAgfVxuXG4gIHRyeSB7XG4gICAgLy8gQ2hlY2sgZm9yIGV4aXN0aW5nIHVzZXJcbiAgICBjb25zdCB1c2VyID0gYXdhaXQgVXNlci5maW5kT25lKHsgZW1haWwgfSk7XG4gICAgaWYgKCF1c2VyKSB0aHJvdyBFcnJvcignVXNlciBEb2VzIG5vdCBleGlzdCcpO1xuXG4gICAgY29uc3QgaXNNYXRjaCA9IGF3YWl0IGJjcnlwdC5jb21wYXJlKHBhc3N3b3JkLCB1c2VyLnBhc3N3b3JkKTtcbiAgICBpZiAoIWlzTWF0Y2gpIHRocm93IEVycm9yKCdJbnZhbGlkIGNyZWRlbnRpYWxzJyk7XG5cbiAgICBjb25zdCB0b2tlbiA9IGp3dC5zaWduKHsgaWQ6IHVzZXIuX2lkIH0sIEpXVF9TRUNSRVQsIHsgZXhwaXJlc0luOiAzNjAwIH0pO1xuICAgIGlmICghdG9rZW4pIHRocm93IEVycm9yKCdDb3VsZG50IHNpZ24gdGhlIHRva2VuJyk7XG5cbiAgICByZXMuc3RhdHVzKDIwMCkuanNvbih7XG4gICAgICB0b2tlbixcbiAgICAgIHVzZXI6IHtcbiAgICAgICAgaWQ6IHVzZXIuX2lkLFxuICAgICAgICBuYW1lOiB1c2VyLm5hbWUsXG4gICAgICAgIGVtYWlsOiB1c2VyLmVtYWlsXG4gICAgICB9XG4gICAgfSk7XG4gIH0gY2F0Y2ggKGUpIHtcbiAgICByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1zZzogZS5tZXNzYWdlIH0pO1xuICB9XG59KTtcblxuLyoqXG4gKiBAcm91dGUgICBQT1NUIGFwaS91c2Vyc1xuICogQGRlc2MgICAgUmVnaXN0ZXIgbmV3IHVzZXJcbiAqIEBhY2Nlc3MgIFB1YmxpY1xuICovXG5cbnJvdXRlci5wb3N0KCcvcmVnaXN0ZXInLCBhc3luYyAocmVxLCByZXMpID0+IHtcbiAgY29uc3QgeyBuYW1lLCBlbWFpbCwgcGFzc3dvcmQgfSA9IHJlcS5ib2R5O1xuXG4gIC8vIFNpbXBsZSB2YWxpZGF0aW9uXG4gIGlmICghbmFtZSB8fCAhZW1haWwgfHwgIXBhc3N3b3JkKSB7XG4gICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbXNnOiAnUGxlYXNlIGVudGVyIGFsbCBmaWVsZHMnIH0pO1xuICB9XG5cbiAgdHJ5IHtcbiAgICBjb25zdCB1c2VyID0gYXdhaXQgVXNlci5maW5kT25lKHsgZW1haWwgfSk7XG4gICAgaWYgKHVzZXIpIHRocm93IEVycm9yKCdVc2VyIGFscmVhZHkgZXhpc3RzJyk7XG5cbiAgICBjb25zdCBzYWx0ID0gYXdhaXQgYmNyeXB0LmdlblNhbHQoMTApO1xuICAgIGlmICghc2FsdCkgdGhyb3cgRXJyb3IoJ1NvbWV0aGluZyB3ZW50IHdyb25nIHdpdGggYmNyeXB0Jyk7XG5cbiAgICBjb25zdCBoYXNoID0gYXdhaXQgYmNyeXB0Lmhhc2gocGFzc3dvcmQsIHNhbHQpO1xuICAgIGlmICghaGFzaCkgdGhyb3cgRXJyb3IoJ1NvbWV0aGluZyB3ZW50IHdyb25nIGhhc2hpbmcgdGhlIHBhc3N3b3JkJyk7XG5cbiAgICBjb25zdCBuZXdVc2VyID0gbmV3IFVzZXIoe1xuICAgICAgbmFtZSxcbiAgICAgIGVtYWlsLFxuICAgICAgcGFzc3dvcmQ6IGhhc2hcbiAgICB9KTtcblxuICAgIGNvbnN0IHNhdmVkVXNlciA9IGF3YWl0IG5ld1VzZXIuc2F2ZSgpO1xuICAgIGlmICghc2F2ZWRVc2VyKSB0aHJvdyBFcnJvcignU29tZXRoaW5nIHdlbnQgd3Jvbmcgc2F2aW5nIHRoZSB1c2VyJyk7XG5cbiAgICBjb25zdCB0b2tlbiA9IGp3dC5zaWduKHsgaWQ6IHNhdmVkVXNlci5faWQgfSwgSldUX1NFQ1JFVCwge1xuICAgICAgZXhwaXJlc0luOiAzNjAwXG4gICAgfSk7XG5cbiAgICByZXMuc3RhdHVzKDIwMCkuanNvbih7XG4gICAgICB0b2tlbixcbiAgICAgIHVzZXI6IHtcbiAgICAgICAgaWQ6IHNhdmVkVXNlci5pZCxcbiAgICAgICAgbmFtZTogc2F2ZWRVc2VyLm5hbWUsXG4gICAgICAgIGVtYWlsOiBzYXZlZFVzZXIuZW1haWxcbiAgICAgIH1cbiAgICB9KTtcbiAgfSBjYXRjaCAoZSkge1xuICAgIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgZXJyb3I6IGUubWVzc2FnZSB9KTtcbiAgfVxufSk7XG5cbi8qKlxuICogQHJvdXRlICAgR0VUIGFwaS9hdXRoL3VzZXJcbiAqIEBkZXNjICAgIEdldCB1c2VyIGRhdGFcbiAqIEBhY2Nlc3MgIFByaXZhdGVcbiAqL1xuXG5yb3V0ZXIuZ2V0KCcvdXNlcicsIGF1dGgsIGFzeW5jIChyZXEsIHJlcykgPT4ge1xuICB0cnkge1xuICAgIGNvbnN0IHVzZXIgPSBhd2FpdCBVc2VyLmZpbmRCeUlkKHJlcS51c2VyLmlkKS5zZWxlY3QoJy1wYXNzd29yZCcpO1xuICAgIGlmICghdXNlcikgdGhyb3cgRXJyb3IoJ1VzZXIgRG9lcyBub3QgZXhpc3QnKTtcbiAgICByZXMuanNvbih1c2VyKTtcbiAgfSBjYXRjaCAoZSkge1xuICAgIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbXNnOiBlLm1lc3NhZ2UgfSk7XG4gIH1cbn0pO1xuXG5leHBvcnQgZGVmYXVsdCByb3V0ZXI7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "auth.js"
+      ],
+      "names": [
+        "JWT_SECRET",
+        "config",
+        "router",
+        "post",
+        "req",
+        "res",
+        "body",
+        "email",
+        "password",
+        "status",
+        "json",
+        "msg",
+        "User",
+        "findOne",
+        "user",
+        "Error",
+        "bcrypt",
+        "compare",
+        "isMatch",
+        "token",
+        "jwt",
+        "sign",
+        "id",
+        "_id",
+        "expiresIn",
+        "name",
+        "message",
+        "genSalt",
+        "salt",
+        "hash",
+        "newUser",
+        "save",
+        "savedUser",
+        "error",
+        "get",
+        "auth",
+        "findById",
+        "select"
+      ],
+      "mappings": "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",
+      "file": "auth.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "sourcesContent": [
+        "import { Router } from 'express';\nimport bcrypt from 'bcryptjs';\nimport config from '../../config';\nimport jwt from 'jsonwebtoken';\nimport auth from '../../middleware/auth';\n// User Model\nimport User from '../../models/User';\n\nconst { JWT_SECRET } = config;\nconst router = Router();\n\n/**\n * @route   POST api/auth/login\n * @desc    Login user\n * @access  Public\n */\n\nrouter.post('/login', async (req, res) => {\n  const { email, password } = req.body;\n\n  // Simple validation\n  if (!email || !password) {\n    return res.status(400).json({ msg: 'Please enter all fields' });\n  }\n\n  try {\n    // Check for existing user\n    const user = await User.findOne({ email });\n    if (!user) throw Error('User Does not exist');\n\n    const isMatch = await bcrypt.compare(password, user.password);\n    if (!isMatch) throw Error('Invalid credentials');\n\n    const token = jwt.sign({ id: user._id }, JWT_SECRET, { expiresIn: 3600 });\n    if (!token) throw Error('Couldnt sign the token');\n\n    res.status(200).json({\n      token,\n      user: {\n        id: user._id,\n        name: user.name,\n        email: user.email\n      }\n    });\n  } catch (e) {\n    res.status(400).json({ msg: e.message });\n  }\n});\n\n/**\n * @route   POST api/users\n * @desc    Register new user\n * @access  Public\n */\n\nrouter.post('/register', async (req, res) => {\n  const { name, email, password } = req.body;\n\n  // Simple validation\n  if (!name || !email || !password) {\n    return res.status(400).json({ msg: 'Please enter all fields' });\n  }\n\n  try {\n    const user = await User.findOne({ email });\n    if (user) throw Error('User already exists');\n\n    const salt = await bcrypt.genSalt(10);\n    if (!salt) throw Error('Something went wrong with bcrypt');\n\n    const hash = await bcrypt.hash(password, salt);\n    if (!hash) throw Error('Something went wrong hashing the password');\n\n    const newUser = new User({\n      name,\n      email,\n      password: hash\n    });\n\n    const savedUser = await newUser.save();\n    if (!savedUser) throw Error('Something went wrong saving the user');\n\n    const token = jwt.sign({ id: savedUser._id }, JWT_SECRET, {\n      expiresIn: 3600\n    });\n\n    res.status(200).json({\n      token,\n      user: {\n        id: savedUser.id,\n        name: savedUser.name,\n        email: savedUser.email\n      }\n    });\n  } catch (e) {\n    res.status(400).json({ error: e.message });\n  }\n});\n\n/**\n * @route   GET api/auth/user\n * @desc    Get user data\n * @access  Private\n */\n\nrouter.get('/user', auth, async (req, res) => {\n  try {\n    const user = await User.findById(req.user.id).select('-password');\n    if (!user) throw Error('User Does not exist');\n    res.json(user);\n  } catch (e) {\n    res.status(400).json({ msg: e.message });\n  }\n});\n\nexport default router;\n"
+      ]
+    },
+    "mtime": 1600070040579
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/middleware/auth.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/middleware\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "jsonwebtoken",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "jwt"
+              }
+            ]
+          },
+          {
+            "source": "../config",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/middleware/auth.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/middleware/auth.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "auth.js",
+      "sourceFileName": "auth.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/middleware",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/middleware",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "auth"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _jsonwebtoken = require('jsonwebtoken');\n\nvar _jsonwebtoken2 = _interopRequireDefault(_jsonwebtoken);\n\nvar _config = require('../config');\n\nvar _config2 = _interopRequireDefault(_config);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar JWT_SECRET = _config2.default.JWT_SECRET;\n\nexports.default = function (req, res, next) {\n  var token = req.header('x-auth-token');\n\n  // Check for token\n  if (!token) return res.status(401).json({ msg: 'No token, authorizaton denied' });\n\n  try {\n    // Verify token\n    var decoded = _jsonwebtoken2.default.verify(token, JWT_SECRET);\n    // Add user from payload\n    req.user = decoded;\n    next();\n  } catch (e) {\n    res.status(400).json({ msg: 'Token is not valid' });\n  }\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanMiXSwibmFtZXMiOlsiSldUX1NFQ1JFVCIsImNvbmZpZyIsInJlcSIsInJlcyIsIm5leHQiLCJ0b2tlbiIsImhlYWRlciIsInN0YXR1cyIsImpzb24iLCJtc2ciLCJkZWNvZGVkIiwiand0IiwidmVyaWZ5IiwidXNlciIsImUiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7OztJQUVRQSxVLEdBQWVDLGdCLENBQWZELFU7O2tCQUVPLFVBQUNFLEdBQUQsRUFBTUMsR0FBTixFQUFXQyxJQUFYLEVBQW9CO0FBQ2pDLE1BQU1DLFFBQVFILElBQUlJLE1BQUosQ0FBVyxjQUFYLENBQWQ7O0FBRUE7QUFDQSxNQUFJLENBQUNELEtBQUwsRUFDRSxPQUFPRixJQUFJSSxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUIsRUFBRUMsS0FBSywrQkFBUCxFQUFyQixDQUFQOztBQUVGLE1BQUk7QUFDRjtBQUNBLFFBQU1DLFVBQVVDLHVCQUFJQyxNQUFKLENBQVdQLEtBQVgsRUFBa0JMLFVBQWxCLENBQWhCO0FBQ0E7QUFDQUUsUUFBSVcsSUFBSixHQUFXSCxPQUFYO0FBQ0FOO0FBQ0QsR0FORCxDQU1FLE9BQU9VLENBQVAsRUFBVTtBQUNWWCxRQUFJSSxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUIsRUFBRUMsS0FBSyxvQkFBUCxFQUFyQjtBQUNEO0FBQ0YsQyIsImZpbGUiOiJhdXRoLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL3NwaWN5L0Rlc2t0b3AvbWVybl9zaG9wcGluZ19saXN0LW1hc3Rlci9taWRkbGV3YXJlIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGp3dCBmcm9tICdqc29ud2VidG9rZW4nO1xuaW1wb3J0IGNvbmZpZyBmcm9tICcuLi9jb25maWcnO1xuXG5jb25zdCB7IEpXVF9TRUNSRVQgfSA9IGNvbmZpZztcblxuZXhwb3J0IGRlZmF1bHQgKHJlcSwgcmVzLCBuZXh0KSA9PiB7XG4gIGNvbnN0IHRva2VuID0gcmVxLmhlYWRlcigneC1hdXRoLXRva2VuJyk7XG5cbiAgLy8gQ2hlY2sgZm9yIHRva2VuXG4gIGlmICghdG9rZW4pXG4gICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAxKS5qc29uKHsgbXNnOiAnTm8gdG9rZW4sIGF1dGhvcml6YXRvbiBkZW5pZWQnIH0pO1xuXG4gIHRyeSB7XG4gICAgLy8gVmVyaWZ5IHRva2VuXG4gICAgY29uc3QgZGVjb2RlZCA9IGp3dC52ZXJpZnkodG9rZW4sIEpXVF9TRUNSRVQpO1xuICAgIC8vIEFkZCB1c2VyIGZyb20gcGF5bG9hZFxuICAgIHJlcS51c2VyID0gZGVjb2RlZDtcbiAgICBuZXh0KCk7XG4gIH0gY2F0Y2ggKGUpIHtcbiAgICByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1zZzogJ1Rva2VuIGlzIG5vdCB2YWxpZCcgfSk7XG4gIH1cbn07XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "auth.js"
+      ],
+      "names": [
+        "JWT_SECRET",
+        "config",
+        "req",
+        "res",
+        "next",
+        "token",
+        "header",
+        "status",
+        "json",
+        "msg",
+        "decoded",
+        "jwt",
+        "verify",
+        "user",
+        "e"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;IAEQA,U,GAAeC,gB,CAAfD,U;;kBAEO,UAACE,GAAD,EAAMC,GAAN,EAAWC,IAAX,EAAoB;AACjC,MAAMC,QAAQH,IAAII,MAAJ,CAAW,cAAX,CAAd;;AAEA;AACA,MAAI,CAACD,KAAL,EACE,OAAOF,IAAII,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,EAAEC,KAAK,+BAAP,EAArB,CAAP;;AAEF,MAAI;AACF;AACA,QAAMC,UAAUC,uBAAIC,MAAJ,CAAWP,KAAX,EAAkBL,UAAlB,CAAhB;AACA;AACAE,QAAIW,IAAJ,GAAWH,OAAX;AACAN;AACD,GAND,CAME,OAAOU,CAAP,EAAU;AACVX,QAAII,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,EAAEC,KAAK,oBAAP,EAArB;AACD;AACF,C",
+      "file": "auth.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/middleware",
+      "sourcesContent": [
+        "import jwt from 'jsonwebtoken';\nimport config from '../config';\n\nconst { JWT_SECRET } = config;\n\nexport default (req, res, next) => {\n  const token = req.header('x-auth-token');\n\n  // Check for token\n  if (!token)\n    return res.status(401).json({ msg: 'No token, authorizaton denied' });\n\n  try {\n    // Verify token\n    const decoded = jwt.verify(token, JWT_SECRET);\n    // Add user from payload\n    req.user = decoded;\n    next();\n  } catch (e) {\n    res.status(400).json({ msg: 'Token is not valid' });\n  }\n};\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/models/User.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/models\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "mongoose",
+            "imported": [
+              "Schema",
+              "model"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Schema",
+                "local": "Schema"
+              },
+              {
+                "kind": "named",
+                "imported": "model",
+                "local": "model"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/models/User.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/models/User.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "User.js",
+      "sourceFileName": "User.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/models",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/models",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "User"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _mongoose = require('mongoose');\n\n// Create Schema\nvar UserSchema = new _mongoose.Schema({\n  name: {\n    type: String,\n    required: true\n  },\n  email: {\n    type: String,\n    required: true,\n    unique: true\n  },\n  password: {\n    type: String,\n    required: true\n  },\n  register_date: {\n    type: Date,\n    default: Date.now\n  }\n});\n\nvar User = (0, _mongoose.model)('user', UserSchema);\n\nexports.default = User;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlVzZXIuanMiXSwibmFtZXMiOlsiVXNlclNjaGVtYSIsIlNjaGVtYSIsIm5hbWUiLCJ0eXBlIiwiU3RyaW5nIiwicmVxdWlyZWQiLCJlbWFpbCIsInVuaXF1ZSIsInBhc3N3b3JkIiwicmVnaXN0ZXJfZGF0ZSIsIkRhdGUiLCJkZWZhdWx0Iiwibm93IiwiVXNlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBRUE7QUFDQSxJQUFNQSxhQUFhLElBQUlDLGdCQUFKLENBQVc7QUFDNUJDLFFBQU07QUFDSkMsVUFBTUMsTUFERjtBQUVKQyxjQUFVO0FBRk4sR0FEc0I7QUFLNUJDLFNBQU87QUFDTEgsVUFBTUMsTUFERDtBQUVMQyxjQUFVLElBRkw7QUFHTEUsWUFBUTtBQUhILEdBTHFCO0FBVTVCQyxZQUFVO0FBQ1JMLFVBQU1DLE1BREU7QUFFUkMsY0FBVTtBQUZGLEdBVmtCO0FBYzVCSSxpQkFBZTtBQUNiTixVQUFNTyxJQURPO0FBRWJDLGFBQVNELEtBQUtFO0FBRkQ7QUFkYSxDQUFYLENBQW5COztBQW9CQSxJQUFNQyxPQUFPLHFCQUFNLE1BQU4sRUFBY2IsVUFBZCxDQUFiOztrQkFFZWEsSSIsImZpbGUiOiJVc2VyLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL3NwaWN5L0Rlc2t0b3AvbWVybl9zaG9wcGluZ19saXN0LW1hc3Rlci9tb2RlbHMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTY2hlbWEsIG1vZGVsIH0gZnJvbSAnbW9uZ29vc2UnO1xuXG4vLyBDcmVhdGUgU2NoZW1hXG5jb25zdCBVc2VyU2NoZW1hID0gbmV3IFNjaGVtYSh7XG4gIG5hbWU6IHtcbiAgICB0eXBlOiBTdHJpbmcsXG4gICAgcmVxdWlyZWQ6IHRydWVcbiAgfSxcbiAgZW1haWw6IHtcbiAgICB0eXBlOiBTdHJpbmcsXG4gICAgcmVxdWlyZWQ6IHRydWUsXG4gICAgdW5pcXVlOiB0cnVlXG4gIH0sXG4gIHBhc3N3b3JkOiB7XG4gICAgdHlwZTogU3RyaW5nLFxuICAgIHJlcXVpcmVkOiB0cnVlXG4gIH0sXG4gIHJlZ2lzdGVyX2RhdGU6IHtcbiAgICB0eXBlOiBEYXRlLFxuICAgIGRlZmF1bHQ6IERhdGUubm93XG4gIH1cbn0pO1xuXG5jb25zdCBVc2VyID0gbW9kZWwoJ3VzZXInLCBVc2VyU2NoZW1hKTtcblxuZXhwb3J0IGRlZmF1bHQgVXNlcjtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "User.js"
+      ],
+      "names": [
+        "UserSchema",
+        "Schema",
+        "name",
+        "type",
+        "String",
+        "required",
+        "email",
+        "unique",
+        "password",
+        "register_date",
+        "Date",
+        "default",
+        "now",
+        "User"
+      ],
+      "mappings": ";;;;;;AAAA;;AAEA;AACA,IAAMA,aAAa,IAAIC,gBAAJ,CAAW;AAC5BC,QAAM;AACJC,UAAMC,MADF;AAEJC,cAAU;AAFN,GADsB;AAK5BC,SAAO;AACLH,UAAMC,MADD;AAELC,cAAU,IAFL;AAGLE,YAAQ;AAHH,GALqB;AAU5BC,YAAU;AACRL,UAAMC,MADE;AAERC,cAAU;AAFF,GAVkB;AAc5BI,iBAAe;AACbN,UAAMO,IADO;AAEbC,aAASD,KAAKE;AAFD;AAda,CAAX,CAAnB;;AAoBA,IAAMC,OAAO,qBAAM,MAAN,EAAcb,UAAd,CAAb;;kBAEea,I",
+      "file": "User.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/models",
+      "sourcesContent": [
+        "import { Schema, model } from 'mongoose';\n\n// Create Schema\nconst UserSchema = new Schema({\n  name: {\n    type: String,\n    required: true\n  },\n  email: {\n    type: String,\n    required: true,\n    unique: true\n  },\n  password: {\n    type: String,\n    required: true\n  },\n  register_date: {\n    type: Date,\n    default: Date.now\n  }\n});\n\nconst User = model('user', UserSchema);\n\nexport default User;\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/items.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "Router"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Router",
+                "local": "Router"
+              }
+            ]
+          },
+          {
+            "source": "../../middleware/auth",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "auth"
+              }
+            ]
+          },
+          {
+            "source": "../../models/Item",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Item"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/items.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/items.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "items.js",
+      "sourceFileName": "items.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "items"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _express = require('express');\n\nvar _auth = require('../../middleware/auth');\n\nvar _auth2 = _interopRequireDefault(_auth);\n\nvar _Item = require('../../models/Item');\n\nvar _Item2 = _interopRequireDefault(_Item);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n// Item Model\n\n\nvar router = (0, _express.Router)();\n\n/**\n * @route   GET api/items\n * @desc    Get All Items\n * @access  Public\n */\n\nrouter.get('/', function () {\n  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(req, res) {\n    var items;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.prev = 0;\n            _context.next = 3;\n            return _Item2.default.find();\n\n          case 3:\n            items = _context.sent;\n\n            if (items) {\n              _context.next = 6;\n              break;\n            }\n\n            throw Error('No items');\n\n          case 6:\n\n            res.status(200).json(items);\n            _context.next = 12;\n            break;\n\n          case 9:\n            _context.prev = 9;\n            _context.t0 = _context['catch'](0);\n\n            res.status(400).json({ msg: _context.t0.message });\n\n          case 12:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, undefined, [[0, 9]]);\n  }));\n\n  return function (_x, _x2) {\n    return _ref.apply(this, arguments);\n  };\n}());\n\n/**\n * @route   POST api/items\n * @desc    Create An Item\n * @access  Private\n */\n\nrouter.post('/', _auth2.default, function () {\n  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(req, res) {\n    var newItem, item;\n    return regeneratorRuntime.wrap(function _callee2$(_context2) {\n      while (1) {\n        switch (_context2.prev = _context2.next) {\n          case 0:\n            newItem = new _Item2.default({\n              name: req.body.name\n            });\n            _context2.prev = 1;\n            _context2.next = 4;\n            return newItem.save();\n\n          case 4:\n            item = _context2.sent;\n\n            if (item) {\n              _context2.next = 7;\n              break;\n            }\n\n            throw Error('Something went wrong saving the item');\n\n          case 7:\n\n            res.status(200).json(item);\n            _context2.next = 13;\n            break;\n\n          case 10:\n            _context2.prev = 10;\n            _context2.t0 = _context2['catch'](1);\n\n            res.status(400).json({ msg: _context2.t0.message });\n\n          case 13:\n          case 'end':\n            return _context2.stop();\n        }\n      }\n    }, _callee2, undefined, [[1, 10]]);\n  }));\n\n  return function (_x3, _x4) {\n    return _ref2.apply(this, arguments);\n  };\n}());\n\n/**\n * @route   DELETE api/items/:id\n * @desc    Delete A Item\n * @access  Private\n */\n\nrouter.delete('/:id', _auth2.default, function () {\n  var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(req, res) {\n    var item, removed;\n    return regeneratorRuntime.wrap(function _callee3$(_context3) {\n      while (1) {\n        switch (_context3.prev = _context3.next) {\n          case 0:\n            _context3.prev = 0;\n            _context3.next = 3;\n            return _Item2.default.findById(req.params.id);\n\n          case 3:\n            item = _context3.sent;\n\n            if (item) {\n              _context3.next = 6;\n              break;\n            }\n\n            throw Error('No item found');\n\n          case 6:\n            _context3.next = 8;\n            return item.remove();\n\n          case 8:\n            removed = _context3.sent;\n\n            if (removed) {\n              _context3.next = 11;\n              break;\n            }\n\n            throw Error('Something went wrong while trying to delete the item');\n\n          case 11:\n\n            res.status(200).json({ success: true });\n            _context3.next = 17;\n            break;\n\n          case 14:\n            _context3.prev = 14;\n            _context3.t0 = _context3['catch'](0);\n\n            res.status(400).json({ msg: _context3.t0.message, success: false });\n\n          case 17:\n          case 'end':\n            return _context3.stop();\n        }\n      }\n    }, _callee3, undefined, [[0, 14]]);\n  }));\n\n  return function (_x5, _x6) {\n    return _ref3.apply(this, arguments);\n  };\n}());\n\nexports.default = router;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIml0ZW1zLmpzIl0sIm5hbWVzIjpbInJvdXRlciIsImdldCIsInJlcSIsInJlcyIsIkl0ZW0iLCJmaW5kIiwiaXRlbXMiLCJFcnJvciIsInN0YXR1cyIsImpzb24iLCJtc2ciLCJtZXNzYWdlIiwicG9zdCIsImF1dGgiLCJuZXdJdGVtIiwibmFtZSIsImJvZHkiLCJzYXZlIiwiaXRlbSIsImRlbGV0ZSIsImZpbmRCeUlkIiwicGFyYW1zIiwiaWQiLCJyZW1vdmUiLCJyZW1vdmVkIiwic3VjY2VzcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7Ozs7QUFFQTs7Ozs7OztBQURBOzs7QUFHQSxJQUFNQSxTQUFTLHNCQUFmOztBQUVBOzs7Ozs7QUFNQUEsT0FBT0MsR0FBUCxDQUFXLEdBQVg7QUFBQSxxRUFBZ0IsaUJBQU9DLEdBQVAsRUFBWUMsR0FBWjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBRVFDLGVBQUtDLElBQUwsRUFGUjs7QUFBQTtBQUVOQyxpQkFGTTs7QUFBQSxnQkFHUEEsS0FITztBQUFBO0FBQUE7QUFBQTs7QUFBQSxrQkFHTUMsTUFBTSxVQUFOLENBSE47O0FBQUE7O0FBS1pKLGdCQUFJSyxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUJILEtBQXJCO0FBTFk7QUFBQTs7QUFBQTtBQUFBO0FBQUE7O0FBT1pILGdCQUFJSyxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUIsRUFBRUMsS0FBSyxZQUFFQyxPQUFULEVBQXJCOztBQVBZO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQWhCOztBQUFBO0FBQUE7QUFBQTtBQUFBOztBQVdBOzs7Ozs7QUFNQVgsT0FBT1ksSUFBUCxDQUFZLEdBQVosRUFBaUJDLGNBQWpCO0FBQUEsc0VBQXVCLGtCQUFPWCxHQUFQLEVBQVlDLEdBQVo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ2ZXLG1CQURlLEdBQ0wsSUFBSVYsY0FBSixDQUFTO0FBQ3ZCVyxvQkFBTWIsSUFBSWMsSUFBSixDQUFTRDtBQURRLGFBQVQsQ0FESztBQUFBO0FBQUE7QUFBQSxtQkFNQUQsUUFBUUcsSUFBUixFQU5BOztBQUFBO0FBTWJDLGdCQU5hOztBQUFBLGdCQU9kQSxJQVBjO0FBQUE7QUFBQTtBQUFBOztBQUFBLGtCQU9GWCxNQUFNLHNDQUFOLENBUEU7O0FBQUE7O0FBU25CSixnQkFBSUssTUFBSixDQUFXLEdBQVgsRUFBZ0JDLElBQWhCLENBQXFCUyxJQUFyQjtBQVRtQjtBQUFBOztBQUFBO0FBQUE7QUFBQTs7QUFXbkJmLGdCQUFJSyxNQUFKLENBQVcsR0FBWCxFQUFnQkMsSUFBaEIsQ0FBcUIsRUFBRUMsS0FBSyxhQUFFQyxPQUFULEVBQXJCOztBQVhtQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHQUF2Qjs7QUFBQTtBQUFBO0FBQUE7QUFBQTs7QUFlQTs7Ozs7O0FBTUFYLE9BQU9tQixNQUFQLENBQWMsTUFBZCxFQUFzQk4sY0FBdEI7QUFBQSxzRUFBNEIsa0JBQU9YLEdBQVAsRUFBWUMsR0FBWjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBRUxDLGVBQUtnQixRQUFMLENBQWNsQixJQUFJbUIsTUFBSixDQUFXQyxFQUF6QixDQUZLOztBQUFBO0FBRWxCSixnQkFGa0I7O0FBQUEsZ0JBR25CQSxJQUhtQjtBQUFBO0FBQUE7QUFBQTs7QUFBQSxrQkFHUFgsTUFBTSxlQUFOLENBSE87O0FBQUE7QUFBQTtBQUFBLG1CQUtGVyxLQUFLSyxNQUFMLEVBTEU7O0FBQUE7QUFLbEJDLG1CQUxrQjs7QUFBQSxnQkFNbkJBLE9BTm1CO0FBQUE7QUFBQTtBQUFBOztBQUFBLGtCQU9oQmpCLE1BQU0sc0RBQU4sQ0FQZ0I7O0FBQUE7O0FBU3hCSixnQkFBSUssTUFBSixDQUFXLEdBQVgsRUFBZ0JDLElBQWhCLENBQXFCLEVBQUVnQixTQUFTLElBQVgsRUFBckI7QUFUd0I7QUFBQTs7QUFBQTtBQUFBO0FBQUE7O0FBV3hCdEIsZ0JBQUlLLE1BQUosQ0FBVyxHQUFYLEVBQWdCQyxJQUFoQixDQUFxQixFQUFFQyxLQUFLLGFBQUVDLE9BQVQsRUFBa0JjLFNBQVMsS0FBM0IsRUFBckI7O0FBWHdCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQTVCOztBQUFBO0FBQUE7QUFBQTtBQUFBOztrQkFlZXpCLE0iLCJmaWxlIjoiaXRlbXMuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvc3BpY3kvRGVza3RvcC9tZXJuX3Nob3BwaW5nX2xpc3QtbWFzdGVyL3JvdXRlcy9hcGkiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBSb3V0ZXIgfSBmcm9tICdleHByZXNzJztcbmltcG9ydCBhdXRoIGZyb20gJy4uLy4uL21pZGRsZXdhcmUvYXV0aCc7XG4vLyBJdGVtIE1vZGVsXG5pbXBvcnQgSXRlbSBmcm9tICcuLi8uLi9tb2RlbHMvSXRlbSc7XG5cbmNvbnN0IHJvdXRlciA9IFJvdXRlcigpO1xuXG4vKipcbiAqIEByb3V0ZSAgIEdFVCBhcGkvaXRlbXNcbiAqIEBkZXNjICAgIEdldCBBbGwgSXRlbXNcbiAqIEBhY2Nlc3MgIFB1YmxpY1xuICovXG5cbnJvdXRlci5nZXQoJy8nLCBhc3luYyAocmVxLCByZXMpID0+IHtcbiAgdHJ5IHtcbiAgICBjb25zdCBpdGVtcyA9IGF3YWl0IEl0ZW0uZmluZCgpO1xuICAgIGlmICghaXRlbXMpIHRocm93IEVycm9yKCdObyBpdGVtcycpO1xuXG4gICAgcmVzLnN0YXR1cygyMDApLmpzb24oaXRlbXMpO1xuICB9IGNhdGNoIChlKSB7XG4gICAgcmVzLnN0YXR1cyg0MDApLmpzb24oeyBtc2c6IGUubWVzc2FnZSB9KTtcbiAgfVxufSk7XG5cbi8qKlxuICogQHJvdXRlICAgUE9TVCBhcGkvaXRlbXNcbiAqIEBkZXNjICAgIENyZWF0ZSBBbiBJdGVtXG4gKiBAYWNjZXNzICBQcml2YXRlXG4gKi9cblxucm91dGVyLnBvc3QoJy8nLCBhdXRoLCBhc3luYyAocmVxLCByZXMpID0+IHtcbiAgY29uc3QgbmV3SXRlbSA9IG5ldyBJdGVtKHtcbiAgICBuYW1lOiByZXEuYm9keS5uYW1lXG4gIH0pO1xuXG4gIHRyeSB7XG4gICAgY29uc3QgaXRlbSA9IGF3YWl0IG5ld0l0ZW0uc2F2ZSgpO1xuICAgIGlmICghaXRlbSkgdGhyb3cgRXJyb3IoJ1NvbWV0aGluZyB3ZW50IHdyb25nIHNhdmluZyB0aGUgaXRlbScpO1xuXG4gICAgcmVzLnN0YXR1cygyMDApLmpzb24oaXRlbSk7XG4gIH0gY2F0Y2ggKGUpIHtcbiAgICByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1zZzogZS5tZXNzYWdlIH0pO1xuICB9XG59KTtcblxuLyoqXG4gKiBAcm91dGUgICBERUxFVEUgYXBpL2l0ZW1zLzppZFxuICogQGRlc2MgICAgRGVsZXRlIEEgSXRlbVxuICogQGFjY2VzcyAgUHJpdmF0ZVxuICovXG5cbnJvdXRlci5kZWxldGUoJy86aWQnLCBhdXRoLCBhc3luYyAocmVxLCByZXMpID0+IHtcbiAgdHJ5IHtcbiAgICBjb25zdCBpdGVtID0gYXdhaXQgSXRlbS5maW5kQnlJZChyZXEucGFyYW1zLmlkKTtcbiAgICBpZiAoIWl0ZW0pIHRocm93IEVycm9yKCdObyBpdGVtIGZvdW5kJyk7XG5cbiAgICBjb25zdCByZW1vdmVkID0gYXdhaXQgaXRlbS5yZW1vdmUoKTtcbiAgICBpZiAoIXJlbW92ZWQpXG4gICAgICB0aHJvdyBFcnJvcignU29tZXRoaW5nIHdlbnQgd3Jvbmcgd2hpbGUgdHJ5aW5nIHRvIGRlbGV0ZSB0aGUgaXRlbScpO1xuXG4gICAgcmVzLnN0YXR1cygyMDApLmpzb24oeyBzdWNjZXNzOiB0cnVlIH0pO1xuICB9IGNhdGNoIChlKSB7XG4gICAgcmVzLnN0YXR1cyg0MDApLmpzb24oeyBtc2c6IGUubWVzc2FnZSwgc3VjY2VzczogZmFsc2UgfSk7XG4gIH1cbn0pO1xuXG5leHBvcnQgZGVmYXVsdCByb3V0ZXI7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "items.js"
+      ],
+      "names": [
+        "router",
+        "get",
+        "req",
+        "res",
+        "Item",
+        "find",
+        "items",
+        "Error",
+        "status",
+        "json",
+        "msg",
+        "message",
+        "post",
+        "auth",
+        "newItem",
+        "name",
+        "body",
+        "save",
+        "item",
+        "delete",
+        "findById",
+        "params",
+        "id",
+        "remove",
+        "removed",
+        "success"
+      ],
+      "mappings": ";;;;;;AAAA;;AACA;;;;AAEA;;;;;;;AADA;;;AAGA,IAAMA,SAAS,sBAAf;;AAEA;;;;;;AAMAA,OAAOC,GAAP,CAAW,GAAX;AAAA,qEAAgB,iBAAOC,GAAP,EAAYC,GAAZ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAEQC,eAAKC,IAAL,EAFR;;AAAA;AAENC,iBAFM;;AAAA,gBAGPA,KAHO;AAAA;AAAA;AAAA;;AAAA,kBAGMC,MAAM,UAAN,CAHN;;AAAA;;AAKZJ,gBAAIK,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqBH,KAArB;AALY;AAAA;;AAAA;AAAA;AAAA;;AAOZH,gBAAIK,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,EAAEC,KAAK,YAAEC,OAAT,EAArB;;AAPY;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GAAhB;;AAAA;AAAA;AAAA;AAAA;;AAWA;;;;;;AAMAX,OAAOY,IAAP,CAAY,GAAZ,EAAiBC,cAAjB;AAAA,sEAAuB,kBAAOX,GAAP,EAAYC,GAAZ;AAAA;AAAA;AAAA;AAAA;AAAA;AACfW,mBADe,GACL,IAAIV,cAAJ,CAAS;AACvBW,oBAAMb,IAAIc,IAAJ,CAASD;AADQ,aAAT,CADK;AAAA;AAAA;AAAA,mBAMAD,QAAQG,IAAR,EANA;;AAAA;AAMbC,gBANa;;AAAA,gBAOdA,IAPc;AAAA;AAAA;AAAA;;AAAA,kBAOFX,MAAM,sCAAN,CAPE;;AAAA;;AASnBJ,gBAAIK,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqBS,IAArB;AATmB;AAAA;;AAAA;AAAA;AAAA;;AAWnBf,gBAAIK,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,EAAEC,KAAK,aAAEC,OAAT,EAArB;;AAXmB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GAAvB;;AAAA;AAAA;AAAA;AAAA;;AAeA;;;;;;AAMAX,OAAOmB,MAAP,CAAc,MAAd,EAAsBN,cAAtB;AAAA,sEAA4B,kBAAOX,GAAP,EAAYC,GAAZ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAELC,eAAKgB,QAAL,CAAclB,IAAImB,MAAJ,CAAWC,EAAzB,CAFK;;AAAA;AAElBJ,gBAFkB;;AAAA,gBAGnBA,IAHmB;AAAA;AAAA;AAAA;;AAAA,kBAGPX,MAAM,eAAN,CAHO;;AAAA;AAAA;AAAA,mBAKFW,KAAKK,MAAL,EALE;;AAAA;AAKlBC,mBALkB;;AAAA,gBAMnBA,OANmB;AAAA;AAAA;AAAA;;AAAA,kBAOhBjB,MAAM,sDAAN,CAPgB;;AAAA;;AASxBJ,gBAAIK,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,EAAEgB,SAAS,IAAX,EAArB;AATwB;AAAA;;AAAA;AAAA;AAAA;;AAWxBtB,gBAAIK,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,EAAEC,KAAK,aAAEC,OAAT,EAAkBc,SAAS,KAA3B,EAArB;;AAXwB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GAA5B;;AAAA;AAAA;AAAA;AAAA;;kBAeezB,M",
+      "file": "items.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "sourcesContent": [
+        "import { Router } from 'express';\nimport auth from '../../middleware/auth';\n// Item Model\nimport Item from '../../models/Item';\n\nconst router = Router();\n\n/**\n * @route   GET api/items\n * @desc    Get All Items\n * @access  Public\n */\n\nrouter.get('/', async (req, res) => {\n  try {\n    const items = await Item.find();\n    if (!items) throw Error('No items');\n\n    res.status(200).json(items);\n  } catch (e) {\n    res.status(400).json({ msg: e.message });\n  }\n});\n\n/**\n * @route   POST api/items\n * @desc    Create An Item\n * @access  Private\n */\n\nrouter.post('/', auth, async (req, res) => {\n  const newItem = new Item({\n    name: req.body.name\n  });\n\n  try {\n    const item = await newItem.save();\n    if (!item) throw Error('Something went wrong saving the item');\n\n    res.status(200).json(item);\n  } catch (e) {\n    res.status(400).json({ msg: e.message });\n  }\n});\n\n/**\n * @route   DELETE api/items/:id\n * @desc    Delete A Item\n * @access  Private\n */\n\nrouter.delete('/:id', auth, async (req, res) => {\n  try {\n    const item = await Item.findById(req.params.id);\n    if (!item) throw Error('No item found');\n\n    const removed = await item.remove();\n    if (!removed)\n      throw Error('Something went wrong while trying to delete the item');\n\n    res.status(200).json({ success: true });\n  } catch (e) {\n    res.status(400).json({ msg: e.message, success: false });\n  }\n});\n\nexport default router;\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/models/Item.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/models\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "mongoose",
+            "imported": [
+              "Schema",
+              "model"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Schema",
+                "local": "Schema"
+              },
+              {
+                "kind": "named",
+                "imported": "model",
+                "local": "model"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/models/Item.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/models/Item.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Item.js",
+      "sourceFileName": "Item.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/models",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/models",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Item"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _mongoose = require('mongoose');\n\n// Create Schema\nvar ItemSchema = new _mongoose.Schema({\n  name: {\n    type: String,\n    required: true\n  },\n  date: {\n    type: Date,\n    default: Date.now\n  }\n});\n\nvar Item = (0, _mongoose.model)('item', ItemSchema);\n\nexports.default = Item;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkl0ZW0uanMiXSwibmFtZXMiOlsiSXRlbVNjaGVtYSIsIlNjaGVtYSIsIm5hbWUiLCJ0eXBlIiwiU3RyaW5nIiwicmVxdWlyZWQiLCJkYXRlIiwiRGF0ZSIsImRlZmF1bHQiLCJub3ciLCJJdGVtIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7QUFFQTtBQUNBLElBQU1BLGFBQWEsSUFBSUMsZ0JBQUosQ0FBVztBQUM1QkMsUUFBTTtBQUNKQyxVQUFNQyxNQURGO0FBRUpDLGNBQVU7QUFGTixHQURzQjtBQUs1QkMsUUFBTTtBQUNKSCxVQUFNSSxJQURGO0FBRUpDLGFBQVNELEtBQUtFO0FBRlY7QUFMc0IsQ0FBWCxDQUFuQjs7QUFXQSxJQUFNQyxPQUFPLHFCQUFNLE1BQU4sRUFBY1YsVUFBZCxDQUFiOztrQkFFZVUsSSIsImZpbGUiOiJJdGVtLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL3NwaWN5L0Rlc2t0b3AvbWVybl9zaG9wcGluZ19saXN0LW1hc3Rlci9tb2RlbHMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTY2hlbWEsIG1vZGVsIH0gZnJvbSAnbW9uZ29vc2UnO1xuXG4vLyBDcmVhdGUgU2NoZW1hXG5jb25zdCBJdGVtU2NoZW1hID0gbmV3IFNjaGVtYSh7XG4gIG5hbWU6IHtcbiAgICB0eXBlOiBTdHJpbmcsXG4gICAgcmVxdWlyZWQ6IHRydWVcbiAgfSxcbiAgZGF0ZToge1xuICAgIHR5cGU6IERhdGUsXG4gICAgZGVmYXVsdDogRGF0ZS5ub3dcbiAgfVxufSk7XG5cbmNvbnN0IEl0ZW0gPSBtb2RlbCgnaXRlbScsIEl0ZW1TY2hlbWEpO1xuXG5leHBvcnQgZGVmYXVsdCBJdGVtO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Item.js"
+      ],
+      "names": [
+        "ItemSchema",
+        "Schema",
+        "name",
+        "type",
+        "String",
+        "required",
+        "date",
+        "Date",
+        "default",
+        "now",
+        "Item"
+      ],
+      "mappings": ";;;;;;AAAA;;AAEA;AACA,IAAMA,aAAa,IAAIC,gBAAJ,CAAW;AAC5BC,QAAM;AACJC,UAAMC,MADF;AAEJC,cAAU;AAFN,GADsB;AAK5BC,QAAM;AACJH,UAAMI,IADF;AAEJC,aAASD,KAAKE;AAFV;AALsB,CAAX,CAAnB;;AAWA,IAAMC,OAAO,qBAAM,MAAN,EAAcV,UAAd,CAAb;;kBAEeU,I",
+      "file": "Item.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/models",
+      "sourcesContent": [
+        "import { Schema, model } from 'mongoose';\n\n// Create Schema\nconst ItemSchema = new Schema({\n  name: {\n    type: String,\n    required: true\n  },\n  date: {\n    type: Date,\n    default: Date.now\n  }\n});\n\nconst Item = model('item', ItemSchema);\n\nexport default Item;\n"
+      ]
+    },
+    "mtime": 1597938946000
+  },
+  "{\"filename\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/users.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "Router"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Router",
+                "local": "Router"
+              }
+            ]
+          },
+          {
+            "source": "../../models/User",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "User"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/users.js",
+      "filenameRelative": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api/users.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "users.js",
+      "sourceFileName": "users.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "users"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _express = require('express');\n\nvar _User = require('../../models/User');\n\nvar _User2 = _interopRequireDefault(_User);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n// User Model\n\n\nvar router = (0, _express.Router)();\n\n/**\n * @route   GET api/users\n * @desc    Get all users\n * @access  Private\n */\n\nrouter.get('/', function () {\n  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(req, res) {\n    var users;\n    return regeneratorRuntime.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            _context.prev = 0;\n            _context.next = 3;\n            return _User2.default.find();\n\n          case 3:\n            users = _context.sent;\n\n            if (users) {\n              _context.next = 6;\n              break;\n            }\n\n            throw Error('No users exist');\n\n          case 6:\n            res.json(users);\n            _context.next = 12;\n            break;\n\n          case 9:\n            _context.prev = 9;\n            _context.t0 = _context['catch'](0);\n\n            res.status(400).json({ msg: _context.t0.message });\n\n          case 12:\n          case 'end':\n            return _context.stop();\n        }\n      }\n    }, _callee, undefined, [[0, 9]]);\n  }));\n\n  return function (_x, _x2) {\n    return _ref.apply(this, arguments);\n  };\n}());\n\nexports.default = router;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVzZXJzLmpzIl0sIm5hbWVzIjpbInJvdXRlciIsImdldCIsInJlcSIsInJlcyIsIlVzZXIiLCJmaW5kIiwidXNlcnMiLCJFcnJvciIsImpzb24iLCJzdGF0dXMiLCJtc2ciLCJtZXNzYWdlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7QUFFQTs7Ozs7OztBQURBOzs7QUFHQSxJQUFNQSxTQUFTLHNCQUFmOztBQUVBOzs7Ozs7QUFNQUEsT0FBT0MsR0FBUCxDQUFXLEdBQVg7QUFBQSxxRUFBZ0IsaUJBQU9DLEdBQVAsRUFBWUMsR0FBWjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBRVFDLGVBQUtDLElBQUwsRUFGUjs7QUFBQTtBQUVOQyxpQkFGTTs7QUFBQSxnQkFHUEEsS0FITztBQUFBO0FBQUE7QUFBQTs7QUFBQSxrQkFHTUMsTUFBTSxnQkFBTixDQUhOOztBQUFBO0FBSVpKLGdCQUFJSyxJQUFKLENBQVNGLEtBQVQ7QUFKWTtBQUFBOztBQUFBO0FBQUE7QUFBQTs7QUFNWkgsZ0JBQUlNLE1BQUosQ0FBVyxHQUFYLEVBQWdCRCxJQUFoQixDQUFxQixFQUFFRSxLQUFLLFlBQUVDLE9BQVQsRUFBckI7O0FBTlk7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBaEI7O0FBQUE7QUFBQTtBQUFBO0FBQUE7O2tCQVVlWCxNIiwiZmlsZSI6InVzZXJzLmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL3NwaWN5L0Rlc2t0b3AvbWVybl9zaG9wcGluZ19saXN0LW1hc3Rlci9yb3V0ZXMvYXBpIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUm91dGVyIH0gZnJvbSAnZXhwcmVzcyc7XG4vLyBVc2VyIE1vZGVsXG5pbXBvcnQgVXNlciBmcm9tICcuLi8uLi9tb2RlbHMvVXNlcic7XG5cbmNvbnN0IHJvdXRlciA9IFJvdXRlcigpO1xuXG4vKipcbiAqIEByb3V0ZSAgIEdFVCBhcGkvdXNlcnNcbiAqIEBkZXNjICAgIEdldCBhbGwgdXNlcnNcbiAqIEBhY2Nlc3MgIFByaXZhdGVcbiAqL1xuXG5yb3V0ZXIuZ2V0KCcvJywgYXN5bmMgKHJlcSwgcmVzKSA9PiB7XG4gIHRyeSB7XG4gICAgY29uc3QgdXNlcnMgPSBhd2FpdCBVc2VyLmZpbmQoKTtcbiAgICBpZiAoIXVzZXJzKSB0aHJvdyBFcnJvcignTm8gdXNlcnMgZXhpc3QnKTtcbiAgICByZXMuanNvbih1c2Vycyk7XG4gIH0gY2F0Y2ggKGUpIHtcbiAgICByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1zZzogZS5tZXNzYWdlIH0pO1xuICB9XG59KTtcblxuZXhwb3J0IGRlZmF1bHQgcm91dGVyO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "users.js"
+      ],
+      "names": [
+        "router",
+        "get",
+        "req",
+        "res",
+        "User",
+        "find",
+        "users",
+        "Error",
+        "json",
+        "status",
+        "msg",
+        "message"
+      ],
+      "mappings": ";;;;;;AAAA;;AAEA;;;;;;;AADA;;;AAGA,IAAMA,SAAS,sBAAf;;AAEA;;;;;;AAMAA,OAAOC,GAAP,CAAW,GAAX;AAAA,qEAAgB,iBAAOC,GAAP,EAAYC,GAAZ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAEQC,eAAKC,IAAL,EAFR;;AAAA;AAENC,iBAFM;;AAAA,gBAGPA,KAHO;AAAA;AAAA;AAAA;;AAAA,kBAGMC,MAAM,gBAAN,CAHN;;AAAA;AAIZJ,gBAAIK,IAAJ,CAASF,KAAT;AAJY;AAAA;;AAAA;AAAA;AAAA;;AAMZH,gBAAIM,MAAJ,CAAW,GAAX,EAAgBD,IAAhB,CAAqB,EAAEE,KAAK,YAAEC,OAAT,EAArB;;AANY;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,GAAhB;;AAAA;AAAA;AAAA;AAAA;;kBAUeX,M",
+      "file": "users.js",
+      "sourceRoot": "C:/Users/spicy/Desktop/mern_shopping_list-master/routes/api",
+      "sourcesContent": [
+        "import { Router } from 'express';\n// User Model\nimport User from '../../models/User';\n\nconst router = Router();\n\n/**\n * @route   GET api/users\n * @desc    Get all users\n * @access  Private\n */\n\nrouter.get('/', async (req, res) => {\n  try {\n    const users = await User.find();\n    if (!users) throw Error('No users exist');\n    res.json(users);\n  } catch (e) {\n    res.status(400).json({ msg: e.message });\n  }\n});\n\nexport default router;\n"
+      ]
+    },
+    "mtime": 1597938946000
+  }
+}
